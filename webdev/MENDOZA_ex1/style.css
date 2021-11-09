@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif, arial;
+  margin: 0px;
+  padding: 0px;
+  /* color: white; */
+}
+
+.main {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 6%;
+  background-color: rgb(255, 255, 255); 
+}
+
+h1 {
+  margin-top: 50px;
+  align-self: center;
+  font-size: 100px;
+  box-shadow: 0px 0px 15px 0px rgba(41,41,41,.25); 
+}
+
+h2 {
+  margin-right: auto;
+}
+
+.main h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-block: 1%;
+}
+
+p {
+  font-size: 20px;;
+}
+
+.sidebar {
+  height: 100vh; /* same height as screen */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: rgb(43, 42, 42);
+  color: rgb(170, 169, 169);
+}
+
+/* change text color when mouse is hovered over*/
+.sidebar li:hover { 
+  color: white;
+}
+
+ol {
+  list-style-type: lower-roman;
+  cursor: pointer;
+}
