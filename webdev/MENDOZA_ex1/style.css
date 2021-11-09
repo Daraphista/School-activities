@@ -2,6 +2,7 @@ body {
   font-family: sans-serif, arial;
   margin: 0px;
   padding: 0px;
+  line-height: 1.2;
 }
 
 /* ------------------------styling in main------------------------------- */
@@ -52,6 +53,15 @@ blockquote p::before {
 
 blockquote p::after {
   content: '\201D';
+}
+
+img {
+  height: 700px;
+  width: auto;
+}
+
+#link {
+  color: rgb(211, 137, 0);
 }
 
 /* ----------------------------------styling sidebar----------------------------------- */
