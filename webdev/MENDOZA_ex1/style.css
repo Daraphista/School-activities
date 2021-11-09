@@ -77,3 +77,13 @@ ol {
   list-style-type: lower-roman;
   cursor: pointer;
 }
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+#current-page {
+  color: white;
+  font-size: 25px;
+}
