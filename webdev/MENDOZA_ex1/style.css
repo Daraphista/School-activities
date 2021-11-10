@@ -64,6 +64,24 @@ img {
   color: rgb(211, 137, 0);
 }
 
+.main a {
+  text-decoration: none;
+  color: black;
+}
+
+.main a:hover#link {
+  text-decoration: underline; 
+}
+
+.main h3 {
+  font-size: 40px;
+  color: rgb(39, 39, 39);
+}
+
+.main h3:hover {
+  color: rgb(80, 80, 80);
+}
+
 /* ----------------------------------styling sidebar----------------------------------- */
 
 .sidebar {
@@ -88,7 +106,7 @@ ol {
   cursor: pointer;
 }
 
-a {
+.sidebar a {
   text-decoration: none;
   color: grey;
 }
