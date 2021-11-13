@@ -94,6 +94,8 @@ img {
   overflow-x: hidden; /* Disable horizontal scroll */
   background-color: rgb(43, 42, 42);
   color: rgb(170, 169, 169);
+  display: flex;
+  flex-direction: column;
 }
 
 /* change text color when mouse is hovered over*/
@@ -114,6 +116,28 @@ ol {
 #current-page {
   color: white;
   font-size: 25px;
+}
+
+.sidebar .footer {
+  width: inherit;
+  margin-inline: 0px;
+  margin-top: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .footer p, a {
+  text-align: center;
+}
+
+.footer p {
+  margin-block: 0px;
+}
+
+.fab.fa-github {
+  font-size: 24px;
+  color: white;
 }
 
 /* ------------------------------------------------footer------------------------------------------------ */
@@ -137,6 +161,7 @@ ol {
   width: 150px;
   height: 50px;
   cursor: pointer;
+  color: white;
 }
 
 button:hover {
