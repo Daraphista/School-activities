@@ -87,6 +87,39 @@ img {
   color: rgb(80, 80, 80);
 }
 
+.recipes {
+  font-family: arial;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.recipes td, .recipes th {
+  border: #ddd 1px solid;
+  padding: 8px;
+}
+
+.recipes td, .recipes th, .recipes a {
+  text-align: left;
+}
+
+.recipes th {
+  color: white;
+  background-color: rgb(255, 167, 66);
+}
+
+.recipes tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.recipes tr:hover {
+  background-color: #e9e9e9;
+}
+
+table img {
+  width: 180px;
+  height: 120px;
+}
+
 /* ----------------------------------styling sidebar----------------------------------- */
 
 .sidebar {
